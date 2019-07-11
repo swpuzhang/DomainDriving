@@ -20,5 +20,11 @@ namespace DomianDriving
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+        public static void Congifure()
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory()) // <== compile failing here
+                .AddJsonFile("appsettings.json");
+        }
     }
 }

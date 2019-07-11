@@ -1,0 +1,6 @@
+H:\mycode\DomainDriving-master\Infrastruct.Data\bin\Debug\netcoreapp2.2\Domain.Core.dll
+H:\mycode\DomainDriving-master\Infrastruct.Data\bin\Debug\netcoreapp2.2\Domain.dll
+H:\mycode\DomainDriving-master\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.csprojAssemblyReference.cache
+H:\mycode\DomainDriving-master\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.csproj.CoreCompileInputs.cache
+H:\mycode\DomainDriving-master\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.AssemblyInfoInputs.cache
+H:\mycode\DomainDriving-master\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.AssemblyInfo.cs
