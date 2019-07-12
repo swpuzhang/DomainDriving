@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomianDriving", "DomianDriving.csproj", "{E0C363B9-9EE3-484C-A75B-88F5F5666CA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{4D06EC2E-4A9D-4F7B-9839-70BB2222E932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{4D06EC2E-4A9D-4F7B-9839-70BB2222E932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastruct.Data", "..\Infrastruct.Data\Infrastruct.Data.csproj", "{D49FD436-2B50-4A2B-9B43-0820EA72B8E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastruct.Data", "..\Infrastruct.Data\Infrastruct.Data.csproj", "{D49FD436-2B50-4A2B-9B43-0820EA72B8E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "..\Application\Application.csproj", "{D60C5C76-E2CE-4E3E-A392-198B1D41B1EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "..\Application\Application.csproj", "{D60C5C76-E2CE-4E3E-A392-198B1D41B1EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Core", "..\Domain.Core\Domain.Core.csproj", "{926651E6-1C9B-4A4F-8ED1-B97C400EAA57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Core", "..\Domain.Core\Domain.Core.csproj", "{926651E6-1C9B-4A4F-8ED1-B97C400EAA57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

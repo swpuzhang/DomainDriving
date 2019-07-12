@@ -22,6 +22,11 @@ namespace Infrastruct.Data.Mappings
                .HasColumnType("varchar(100)")
                .HasMaxLength(11)
                .IsRequired();
+            builder.Property(c => c.Phone)
+                .HasColumnType("varchar(100)")
+                .HasMaxLength(20)
+                .IsRequired();
+            builder.OwnsOne(p => p.Address);
         }
     }
 }

@@ -144,6 +144,8 @@ namespace AutoMappTest
             
         }
 
+
+
         static void IncludeTest()
         {
 
@@ -185,6 +187,10 @@ namespace AutoMappTest
             NormalTest();
             Flatttest();
             IncludeTest();
+            Reverse.ReverseTest.Test();
+            Reverse.ReverseTest.Test1();
+            ListTest.ListTest.Test1();
+            ListTest.ListTest.TestNull();
         }
     }
 }
