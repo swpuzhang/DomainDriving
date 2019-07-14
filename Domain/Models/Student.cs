@@ -6,19 +6,20 @@ using System.Text;
 
 namespace Domain.Models
 {
-    [Owned]
     public class Student : Entity
     {
         protected Student()
         {
         }
-        public Student(Guid id, string name, string email, string phone, DateTime birthDate)
+        public Student(Guid id, string name, string email, 
+            string phone, DateTime birthDate, Address adress)
         {
             Id = id;
             Name = name;
             Email = email;
             Phone = phone;
             BirthDate = birthDate;
+            Address = adress;
         }
         /// <summary>
         /// 姓名

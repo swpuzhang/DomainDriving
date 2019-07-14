@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DomainDriving</name>
+    </assembly>
+    <members>
+        <member name="T:DomainDriving.Controllers.StudentController">
+            <summary>
+            Student 相关操作
+            </summary>
+        </member>
+        <member name="M:DomainDriving.Controllers.StudentController.Get">
+            <summary>
+            获取所有student信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DomainDriving.Controllers.StudentController.Post(Application.ViewModels.StudentViewModel)">
+            <summary>
+            注册一个student
+            </summary>
+            <param name="studentViewModel"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

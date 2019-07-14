@@ -1,5 +1,5 @@
-﻿using DomianDriving.Domains.Interfaces;
-using DomianDriving.Domains.Models;
+﻿using DomainDriving.Domains.Interfaces;
+using DomainDriving.Domains.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;

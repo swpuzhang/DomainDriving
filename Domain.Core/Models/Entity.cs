@@ -9,7 +9,6 @@ namespace Domain.Core.Models
         public Guid Id { get; protected set; }
         public override bool Equals(object obj)
         {
-            return base.Equals(obj);
             var compareTo = obj as Entity;
             if (ReferenceEquals(compareTo, this))
                 return true;
@@ -38,6 +37,15 @@ namespace Domain.Core.Models
         public override string ToString()
         {
             return $"{GetType().Name} [Id={Id}]"; 
+        }
+
+        /// <summary>
+        /// 获取哈希
+        /// </summary>
+        /// <returns></returns>
+        public override int GetHashCode()
+        {
+            return GetType().GetHashCode()  + Id.GetHashCode();
         }
     }
 }

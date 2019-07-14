@@ -1,10 +1,12 @@
 ﻿using Domain.Core.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Domain.Models
 {
+    [Owned]
     public class Address : ValueObject<Address>
     {
         public string Province { get; private set; }

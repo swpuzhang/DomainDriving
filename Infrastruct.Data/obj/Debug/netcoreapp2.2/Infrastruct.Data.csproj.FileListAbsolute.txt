@@ -1,0 +1,16 @@
+D:\document\netcore\DomainDriving\Infrastruct.Data\bin\Debug\netcoreapp2.2\Infrastruct.Data.deps.json
+D:\document\netcore\DomainDriving\Infrastruct.Data\bin\Debug\netcoreapp2.2\Infrastruct.Data.runtimeconfig.json
+D:\document\netcore\DomainDriving\Infrastruct.Data\bin\Debug\netcoreapp2.2\Infrastruct.Data.runtimeconfig.dev.json
+D:\document\netcore\DomainDriving\Infrastruct.Data\bin\Debug\netcoreapp2.2\Infrastruct.Data.dll
+D:\document\netcore\DomainDriving\Infrastruct.Data\bin\Debug\netcoreapp2.2\Infrastruct.Data.pdb
+D:\document\netcore\DomainDriving\Infrastruct.Data\bin\Debug\netcoreapp2.2\Domain.Core.dll
+D:\document\netcore\DomainDriving\Infrastruct.Data\bin\Debug\netcoreapp2.2\Domain.dll
+D:\document\netcore\DomainDriving\Infrastruct.Data\bin\Debug\netcoreapp2.2\Domain.pdb
+D:\document\netcore\DomainDriving\Infrastruct.Data\bin\Debug\netcoreapp2.2\Domain.Core.pdb
+D:\document\netcore\DomainDriving\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.csprojAssemblyReference.cache
+D:\document\netcore\DomainDriving\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.csproj.CoreCompileInputs.cache
+D:\document\netcore\DomainDriving\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.AssemblyInfoInputs.cache
+D:\document\netcore\DomainDriving\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.AssemblyInfo.cs
+D:\document\netcore\DomainDriving\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.csproj.CopyComplete
+D:\document\netcore\DomainDriving\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.dll
+D:\document\netcore\DomainDriving\Infrastruct.Data\obj\Debug\netcoreapp2.2\Infrastruct.Data.pdb

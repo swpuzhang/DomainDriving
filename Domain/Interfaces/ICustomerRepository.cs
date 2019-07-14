@@ -1,10 +1,10 @@
-﻿using DomianDriving.Domains.Models;
+﻿using DomainDriving.Domains.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DomianDriving.Domains.Interfaces
+namespace DomainDriving.Domains.Interfaces
 {
     /// <summary>
     /// 定义Customer独有的数据操作

@@ -1,39 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "H:\\mycode\\DomainDriving-master\\Application\\Application.csproj": {}
+    "D:\\document\\netcore\\DomainDriving\\Application\\Application.csproj": {}
   },
   "projects": {
-    "H:\\mycode\\DomainDriving-master\\Application\\Application.csproj": {
+    "D:\\document\\netcore\\DomainDriving\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\mycode\\DomainDriving-master\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\document\\netcore\\DomainDriving\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "H:\\mycode\\DomainDriving-master\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "H:\\mycode\\DomainDriving-master\\Application\\obj\\",
+        "projectPath": "D:\\document\\netcore\\DomainDriving\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\84075\\.nuget\\packages\\",
+        "outputPath": "D:\\document\\netcore\\DomainDriving\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\84075\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "H:\\mycode\\CsharLearn\\WhatsNewAttributes\\bin\\Release": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packages.xenko.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "H:\\mycode\\DomainDriving-master\\Domain\\Domain.csproj": {
-                "projectPath": "H:\\mycode\\DomainDriving-master\\Domain\\Domain.csproj"
+              "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj"
               }
             }
           }
@@ -66,30 +66,30 @@
         }
       }
     },
-    "H:\\mycode\\DomainDriving-master\\Domain.Core\\Domain.Core.csproj": {
+    "D:\\document\\netcore\\DomainDriving\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\mycode\\DomainDriving-master\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "D:\\document\\netcore\\DomainDriving\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "H:\\mycode\\DomainDriving-master\\Domain.Core\\Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "H:\\mycode\\DomainDriving-master\\Domain.Core\\obj\\",
+        "projectPath": "D:\\document\\netcore\\DomainDriving\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\84075\\.nuget\\packages\\",
+        "outputPath": "D:\\document\\netcore\\DomainDriving\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\84075\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "H:\\mycode\\CsharLearn\\WhatsNewAttributes\\bin\\Release": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packages.xenko.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -105,6 +105,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -120,36 +128,36 @@
         }
       }
     },
-    "H:\\mycode\\DomainDriving-master\\Domain\\Domain.csproj": {
+    "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\mycode\\DomainDriving-master\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "H:\\mycode\\DomainDriving-master\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "H:\\mycode\\DomainDriving-master\\Domain\\obj\\",
+        "projectPath": "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\84075\\.nuget\\packages\\",
+        "outputPath": "D:\\document\\netcore\\DomainDriving\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\84075\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "H:\\mycode\\CsharLearn\\WhatsNewAttributes\\bin\\Release": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packages.xenko.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "H:\\mycode\\DomainDriving-master\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "H:\\mycode\\DomainDriving-master\\Domain.Core\\Domain.Core.csproj"
+              "D:\\document\\netcore\\DomainDriving\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "D:\\document\\netcore\\DomainDriving\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -163,6 +171,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

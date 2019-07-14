@@ -1,0 +1,14 @@
+D:\document\netcore\DomainDriving\Domain\bin\Debug\netcoreapp2.2\Domain.deps.json
+D:\document\netcore\DomainDriving\Domain\bin\Debug\netcoreapp2.2\Domain.dll
+D:\document\netcore\DomainDriving\Domain\bin\Debug\netcoreapp2.2\Domain.pdb
+D:\document\netcore\DomainDriving\Domain\bin\Debug\netcoreapp2.2\Domain.Core.dll
+D:\document\netcore\DomainDriving\Domain\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\document\netcore\DomainDriving\Domain\bin\Debug\netcoreapp2.2\Domain.Core.pdb
+D:\document\netcore\DomainDriving\Domain\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.csprojAssemblyReference.cache
+D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CoreCompileInputs.cache
+D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfoInputs.cache
+D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfo.cs
+D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CopyComplete
+D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.dll
+D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.pdb

@@ -1,4 +1,4 @@
-﻿using DomianDriving.Domains.Interfaces;
+﻿using DomainDriving.Domains.Interfaces;
 using Infrastruct.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -16,6 +16,7 @@ namespace Infrastruct.Data.Repository
         {
             _studyContext = context;
             _dbSet = context.Set<TEntity>();
+     
         }
         public void Add(TEntity obj)
         {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DomianDriving.Domains.Interfaces
+namespace DomainDriving.Domains.Interfaces
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : class
     {
