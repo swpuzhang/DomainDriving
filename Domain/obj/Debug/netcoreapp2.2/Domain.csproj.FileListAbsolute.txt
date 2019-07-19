@@ -12,3 +12,5 @@ D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.Assembly
 D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CopyComplete
 D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.dll
 D:\document\netcore\DomainDriving\Domain\obj\Debug\netcoreapp2.2\Domain.pdb
+D:\document\netcore\DomainDriving\Domain\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Caching.Abstractions.dll
+D:\document\netcore\DomainDriving\Domain\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Caching.Abstractions.xml

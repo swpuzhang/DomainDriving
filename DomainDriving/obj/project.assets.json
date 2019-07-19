@@ -4879,7 +4879,8 @@
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "AutoMapper": "8.1.1",
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Infrastruct.Data": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
@@ -4920,6 +4921,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "Domain": "1.0.0",
           "Domain.Core": "1.0.0",
           "MediatR": "7.0.0"
         },

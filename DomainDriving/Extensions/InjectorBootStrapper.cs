@@ -7,6 +7,16 @@ using Microsoft.Extensions.DependencyInjection;
 using MediatR;
 using Domain.Core.Bus;
 using Infrastruct.Bus;
+using Infrastruct.Data.Uow;
+using Domain.Commands;
+using Domain.CommandHandlers;
+using Microsoft.Extensions.Caching.Memory;
+using Domain.Events;
+using Domain.EventHandlers;
+using Domain.Core.Notifications;
+using Infrastruct.Data.EventSourcing;
+using Infrastruct.Data.Repository.EventSourcing;
+using Domain.Core.Events;
 
 namespace DomainDriving.Extensions
 {
@@ -16,9 +26,23 @@ namespace DomainDriving.Extensions
         {
             services.AddScoped<IStudentAppService, StudentAppService>();
             services.AddScoped<IStudentRepository, StudentRepository>();
-            services.AddScoped<StudyContext>();//上下文
+            services.AddScoped<StudyContext>();
+            services.AddScoped<EventStoreSqlContext>();
+            services.AddScoped<IEventStoreRepository, EventStoreSQLRepository>();
+            services.AddScoped<IEventStoreService, SqlEventStoreService>();
             services.AddMediatR(typeof(Startup));
             services.AddScoped<IMediatorHandler, InMemoryBus>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IRequestHandler<RegisterStudentCommand, Unit>, StudentCommandHandler>();
+            services.AddSingleton<IMemoryCache>(factory =>
+            {
+                var cache = new MemoryCache(new MemoryCacheOptions());
+                return cache;
+            });
+            services.AddScoped<INotificationHandler<StudentRegisteredEvent>, StudentEventHandler>();
+            services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
+            
+
         }
     }
 }

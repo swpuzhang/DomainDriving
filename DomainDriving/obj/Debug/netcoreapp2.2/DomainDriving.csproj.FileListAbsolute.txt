@@ -45,3 +45,5 @@ D:\document\netcore\DomainDriving\DomainDriving\obj\Debug\netcoreapp2.2\DomainDr
 D:\document\netcore\DomainDriving\DomainDriving\obj\Debug\netcoreapp2.2\DomainDriving.dll
 D:\document\netcore\DomainDriving\DomainDriving\obj\Debug\netcoreapp2.2\DomainDriving.pdb
 D:\document\netcore\DomainDriving\DomainDriving\bin\Debug\netcoreapp2.2\DomainDriving.xml
+D:\document\netcore\DomainDriving\DomainDriving\bin\Debug\netcoreapp2.2\Infrastruct.dll
+D:\document\netcore\DomainDriving\DomainDriving\bin\Debug\netcoreapp2.2\Infrastruct.pdb

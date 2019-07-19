@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "32a5cd88fab59583a8aeb978de63c71100a7d17a"
+    "signature": "cfb55c682cc223d30c290a155bf048d1d078a3ef"
   },
   "compilationOptions": {
     "defines": [
@@ -27,8 +27,10 @@
           "Application": "1.0.0",
           "AutoMapper": "8.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.1",
+          "Infrastruct": "1.0.0",
           "Infrastruct.Data": "1.0.0",
           "MediatR": "7.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -95,6 +97,21 @@
         },
         "compile": {
           "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "MediatR": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -513,7 +530,8 @@
       "Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "8.1.1",
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Infrastruct.Data": "1.0.0"
         },
         "runtime": {
           "Application.dll": {}
@@ -544,6 +562,19 @@
         },
         "compile": {
           "Domain.Core.dll": {}
+        }
+      },
+      "Infrastruct/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Domain.Core": "1.0.0",
+          "MediatR": "7.0.0"
+        },
+        "runtime": {
+          "Infrastruct.dll": {}
+        },
+        "compile": {
+          "Infrastruct.dll": {}
         }
       },
       "Infrastruct.Data/1.0.0": {
@@ -3793,6 +3824,13 @@
       "path": "mediatr/7.0.0",
       "hashPath": "mediatr.7.0.0.nupkg.sha512"
     },
+    "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DRf8jBnjBg84da1L1L0YmwqkhCV+UJTg7bTBHOhleWrLfrtSK5h5aNeE1HOofs1Afisq03B6H2C10NmS47gmqA==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/7.0.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
+    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -3979,6 +4017,11 @@
       "sha512": ""
     },
     "Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastruct/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

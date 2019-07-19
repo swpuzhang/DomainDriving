@@ -7,3 +7,12 @@ D:\document\netcore\DomainDriving\Infrastruct\obj\Debug\netcoreapp2.2\Infrastruc
 D:\document\netcore\DomainDriving\Infrastruct\obj\Debug\netcoreapp2.2\Infrastruct.AssemblyInfoInputs.cache
 D:\document\netcore\DomainDriving\Infrastruct\obj\Debug\netcoreapp2.2\Infrastruct.AssemblyInfo.cs
 D:\document\netcore\DomainDriving\Infrastruct\obj\Debug\netcoreapp2.2\Infrastruct.csproj.CopyComplete
+D:\document\netcore\DomainDriving\Infrastruct\bin\Debug\netcoreapp2.2\Infrastruct.pdb
+D:\document\netcore\DomainDriving\Infrastruct\obj\Debug\netcoreapp2.2\Infrastruct.dll
+D:\document\netcore\DomainDriving\Infrastruct\obj\Debug\netcoreapp2.2\Infrastruct.pdb
+D:\document\netcore\DomainDriving\Infrastruct\bin\Debug\netcoreapp2.2\Domain.dll
+D:\document\netcore\DomainDriving\Infrastruct\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\document\netcore\DomainDriving\Infrastruct\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Caching.Abstractions.dll
+D:\document\netcore\DomainDriving\Infrastruct\bin\Debug\netcoreapp2.2\Domain.pdb
+D:\document\netcore\DomainDriving\Infrastruct\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\document\netcore\DomainDriving\Infrastruct\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Caching.Abstractions.xml

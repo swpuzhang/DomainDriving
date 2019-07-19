@@ -34,6 +34,9 @@
             "projectReferences": {
               "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj"
+              },
+              "D:\\document\\netcore\\DomainDriving\\Infrastruct.Data\\Infrastruct.Data.csproj": {
+                "projectPath": "D:\\document\\netcore\\DomainDriving\\Infrastruct.Data\\Infrastruct.Data.csproj"
               }
             }
           }
@@ -407,6 +410,9 @@
             "projectReferences": {
               "D:\\document\\netcore\\DomainDriving\\Domain.Core\\Domain.Core.csproj": {
                 "projectPath": "D:\\document\\netcore\\DomainDriving\\Domain.Core\\Domain.Core.csproj"
+              },
+              "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj"
               }
             }
           }

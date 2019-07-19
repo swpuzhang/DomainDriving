@@ -17,11 +17,12 @@ namespace Application.Services
     {
         private readonly IStudentRepository _studentRepository;
         private readonly IMapper _mapper;
-        private readonly IMediatorHandler Bus;
-        public StudentAppService(IStudentRepository studentRepository, IMapper mapper)
+        private readonly IMediatorHandler _bus;
+        public StudentAppService(IStudentRepository studentRepository, IMapper mapper, IMediatorHandler bus)
         {
             _studentRepository = studentRepository;
             _mapper = mapper;
+            _bus = bus;
         }
 
         public void Dispose()
@@ -45,7 +46,7 @@ namespace Application.Services
             //_studentRepository.Add(_mapper.Map<Student>(StudentViewModel));
             //_studentRepository.SaveChanges();
             var RegisterCommand = _mapper.Map<RegisterStudentCommand>(StudentViewModel);
-            Bus.SendCommand(RegisterCommand);
+            _bus.SendCommand(RegisterCommand);
         }
 
         public void Remove(Guid id)

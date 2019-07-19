@@ -16,5 +16,10 @@ namespace Domain.Commands
         public DateTime BirthDate { get; protected set; }
 
         public string Phone { get; protected set; }
+
+        public string Province { get; protected set; }
+        public string City { get; protected set; }
+        public string County { get; protected set; }
+        public string Street { get; protected set; }
     }
 }

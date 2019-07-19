@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "e40813db6d741239480730ff72dc5c6e15d7d936"
+    "signature": "63d56060ba87b335415de56596650c559dc5d29f"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,7 +10,8 @@
         "dependencies": {
           "Domain.Core": "1.0.0",
           "FluentValidation": "8.4.0",
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.0.0"
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "2.2.0.0"
         },
         "runtime": {
           "Domain.dll": {}
@@ -27,10 +28,19 @@
           }
         }
       },
+      "MediatR/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
       "System.ComponentModel.Annotations/4.4.1": {},
       "Domain.Core/1.0.0": {
         "dependencies": {
-          "FluentValidation": "8.4.0"
+          "FluentValidation": "8.4.0",
+          "MediatR": "7.0.0"
         },
         "runtime": {
           "Domain.Core.dll": {}
@@ -41,6 +51,14 @@
           "Microsoft.EntityFrameworkCore.Abstractions.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/2.2.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
           }
         }
       }
@@ -59,6 +77,13 @@
       "path": "fluentvalidation/8.4.0",
       "hashPath": "fluentvalidation.8.4.0.nupkg.sha512"
     },
+    "MediatR/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
+      "path": "mediatr/7.0.0",
+      "hashPath": "mediatr.7.0.0.nupkg.sha512"
+    },
     "System.ComponentModel.Annotations/4.4.1": {
       "type": "package",
       "serviceable": true,
@@ -72,6 +97,11 @@
       "sha512": ""
     },
     "Microsoft.EntityFrameworkCore.Abstractions/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Caching.Abstractions/2.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -238,6 +238,20 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Domain.Core": "1.0.0",
+          "FluentValidation": "8.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
       "Domain.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -842,6 +856,11 @@
         "version.txt"
       ]
     },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
     "Domain.Core/1.0.0": {
       "type": "project",
       "path": "../Domain.Core/Domain.Core.csproj",
@@ -850,6 +869,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Domain >= 1.0.0",
       "Domain.Core >= 1.0.0",
       "MediatR >= 7.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -890,6 +910,9 @@
           "projectReferences": {
             "D:\\document\\netcore\\DomainDriving\\Domain.Core\\Domain.Core.csproj": {
               "projectPath": "D:\\document\\netcore\\DomainDriving\\Domain.Core\\Domain.Core.csproj"
+            },
+            "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\document\\netcore\\DomainDriving\\Domain\\Domain.csproj"
             }
           }
         }
